@@ -1,18 +1,16 @@
 package techproed.day06_Maven;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import techproed.Util;
+import techproed.Utils;
 
 import java.util.List;
 
 public class C01_MavenIlkTest {
     public static void main(String[] args) {
-        WebDriver driver = Util.chromDriver(15);
+        WebDriver driver = Utils.chromeDriver(15);
 
         // https://www.amazon.com/ sayfasina gidelim
         driver.get("https://www.amazon.com/");
