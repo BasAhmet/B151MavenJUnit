@@ -4,14 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import techproed.Utils;
-
-import java.sql.SQLOutput;
+import techproed.Util;
 
 
 public class C01_ClassWork {
     public static void main(String[] args) throws InterruptedException {
-        WebDriver driver =  Utils.chromeDriver(15);
+        WebDriver driver =  Util.chromeDriver(15);
 
         // http://zero.webappsecurity.com sayfasina gidin
         driver.get("http://zero.webappsecurity.com");

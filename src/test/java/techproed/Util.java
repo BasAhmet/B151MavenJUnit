@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class Utils {
+public class Util {
     public static WebDriver chromeDriver(int time){
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();

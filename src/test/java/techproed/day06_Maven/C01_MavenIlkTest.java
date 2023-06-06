@@ -4,13 +4,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import techproed.Utils;
+import techproed.Util;
 
 import java.util.List;
 
 public class C01_MavenIlkTest {
     public static void main(String[] args) {
-        WebDriver driver = Utils.chromeDriver(15);
+        WebDriver driver = Util.chromeDriver(15);
 
         // https://www.amazon.com/ sayfasina gidelim
         driver.get("https://www.amazon.com/");

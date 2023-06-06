@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7737083-cfcc-42af-9e4f-7c4e291aec40" name="Changes" comment="Selenium 6. gün Maven">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day07_MavenJUnit/C02_BeforeAfter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day07_MavenJUnit/C03_BeforeAfter.java" afterDir="false" />
+    <list default="true" id="f7737083-cfcc-42af-9e4f-7c4e291aec40" name="Changes" comment="Selenium 7. gün Maven">
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day08_BeforeClassAfterClass_Assertion/C01_BeforeClassAfterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day08_BeforeClassAfterClass_Assertion/C02_BeforeClassAfterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day08_BeforeClassAfterClass_Assertion/C03_BeforeClassAfterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day08_BeforeClassAfterClass_Assertion/C04_CheckBoxClassWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day08_BeforeClassAfterClass_Assertion/C05_Assertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day08_BeforeClassAfterClass_Assertion/C06_AssertionClassWork.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/Util.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day06_Maven/C01_MavenIlkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day06_Maven/C01_MavenIlkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day06_Maven/C02_ClassWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day07_MavenJUnit/C01_ClassWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day07_MavenJUnit/C01_ClassWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day07_MavenJUnit/C01_ClassWork.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,86 +53,92 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C03_BeforeAfter">
-    <configuration name="C01_ClassWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="techproed.day07_MavenJUnit.C01_ClassWork" />
+  <component name="RunManager" selected="JUnit.C06_AssertionClassWork">
+    <configuration name="C05_Assertion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day07_MavenJUnit.*" />
+          <option name="PATTERN" value="techproed.day08_BeforeClassAfterClass_Assertion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_MavenIlkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="techproed.day06_Maven.C01_MavenIlkTest" />
-      <module name="B151MavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.day07_MavenJUnit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_BeforeAfter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B151MavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.day07_MavenJUnit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.day07_MavenJUnit" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day07_MavenJUnit.C02_BeforeAfter" />
+      <option name="PACKAGE_NAME" value="techproed.day08_BeforeClassAfterClass_Assertion" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day08_BeforeClassAfterClass_Assertion.C05_Assertion" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_BeforeAfter.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C05_Assertion.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day07_MavenJUnit.*" />
+          <option name="PATTERN" value="techproed.day08_BeforeClassAfterClass_Assertion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day07_MavenJUnit" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day07_MavenJUnit.C02_BeforeAfter" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="PACKAGE_NAME" value="techproed.day08_BeforeClassAfterClass_Assertion" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day08_BeforeClassAfterClass_Assertion.C05_Assertion" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_BeforeAfter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C05_Assertion.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day07_MavenJUnit.*" />
+          <option name="PATTERN" value="techproed.day08_BeforeClassAfterClass_Assertion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day07_MavenJUnit" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day07_MavenJUnit.C03_BeforeAfter" />
+      <option name="PACKAGE_NAME" value="techproed.day08_BeforeClassAfterClass_Assertion" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day08_BeforeClassAfterClass_Assertion.C05_Assertion" />
+      <option name="METHOD_NAME" value="test04" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C06_AssertionClassWork" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B151MavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.day08_BeforeClassAfterClass_Assertion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.day08_BeforeClassAfterClass_Assertion" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day08_BeforeClassAfterClass_Assertion.C06_AssertionClassWork" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C06_AssertionClassWork.titleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B151MavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.day08_BeforeClassAfterClass_Assertion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.day08_BeforeClassAfterClass_Assertion" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day08_BeforeClassAfterClass_Assertion.C06_AssertionClassWork" />
+      <option name="METHOD_NAME" value="titleTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C03_BeforeAfter" />
-        <item itemvalue="JUnit.C02_BeforeAfter.test3" />
-        <item itemvalue="JUnit.C02_BeforeAfter" />
-        <item itemvalue="Application.C01_ClassWork" />
-        <item itemvalue="Application.C01_MavenIlkTest" />
+        <item itemvalue="JUnit.C06_AssertionClassWork" />
+        <item itemvalue="JUnit.C06_AssertionClassWork.titleTest" />
+        <item itemvalue="JUnit.C05_Assertion.test04" />
+        <item itemvalue="JUnit.C05_Assertion" />
+        <item itemvalue="JUnit.C05_Assertion.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -156,11 +165,19 @@
       <option name="project" value="LOCAL" />
       <updated>1685740626321</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Selenium 7. gün Maven">
+      <created>1685996904680</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685996904680</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Selenium 6. gün Maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium 6. gün Maven" />
+    <MESSAGE value="Selenium 7. gün Maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium 7. gün Maven" />
   </component>
 </project>
