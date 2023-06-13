@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7737083-cfcc-42af-9e4f-7c4e291aec40" name="Changes" comment="Selenium 9. gün Drop Down Menu">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/Utilities/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day10_TestBase_Allert/C01_TestBaseDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day10_TestBase_Allert/C02_Alerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day10_TestBase_Allert/C03_Alerts.java" afterDir="false" />
+    <list default="true" id="f7737083-cfcc-42af-9e4f-7c4e291aec40" name="Changes" comment="Selenium 10. gün TestBase">
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day11_Iframe_WindowHandle/C01_Iframe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day11_Iframe_WindowHandle/C02_Iframe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day11_Iframe_WindowHandle/C03_WindowsHandle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/Utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/Utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,66 +48,49 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C03_Alerts.test03">
-    <configuration name="C02_Alerts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C03_WindowsHandle">
+    <configuration name="C01_Iframe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day10_TestBase_Allert.*" />
+          <option name="PATTERN" value="techproed.day11_Iframe_WindowHandle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day10_TestBase_Allert" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day10_TestBase_Allert.C02_Alerts" />
+      <option name="PACKAGE_NAME" value="techproed.day11_Iframe_WindowHandle" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day11_Iframe_WindowHandle.C01_Iframe" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_Alerts.sendKeysAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_Iframe.iframe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day10_TestBase_Allert.*" />
+          <option name="PATTERN" value="techproed.day11_Iframe_WindowHandle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day10_TestBase_Allert" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day10_TestBase_Allert.C02_Alerts" />
-      <option name="METHOD_NAME" value="sendKeysAlert" />
+      <option name="PACKAGE_NAME" value="techproed.day11_Iframe_WindowHandle" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day11_Iframe_WindowHandle.C01_Iframe" />
+      <option name="METHOD_NAME" value="iframe" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_Alerts.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_Iframe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day10_TestBase_Allert.*" />
+          <option name="PATTERN" value="techproed.day11_Iframe_WindowHandle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day10_TestBase_Allert" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day10_TestBase_Allert.C03_Alerts" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_Alerts.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B151MavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.day10_TestBase_Allert.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.day10_TestBase_Allert" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day10_TestBase_Allert.C03_Alerts" />
-      <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="techproed.day11_Iframe_WindowHandle" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day11_Iframe_WindowHandle.C02_Iframe" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,13 +111,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C03_WindowsHandle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B151MavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.day11_Iframe_WindowHandle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.day11_Iframe_WindowHandle" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day11_Iframe_WindowHandle.C03_WindowsHandle" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C03_WindowsHandle" />
+        <item itemvalue="JUnit.C02_Iframe" />
+        <item itemvalue="JUnit.C01_Iframe.iframe" />
+        <item itemvalue="JUnit.C01_Iframe" />
         <item itemvalue="JUnit.C03_Alerts.test03" />
-        <item itemvalue="JUnit.C03_Alerts.test02" />
-        <item itemvalue="JUnit.C03_Alerts.test01" />
-        <item itemvalue="JUnit.C02_Alerts" />
-        <item itemvalue="JUnit.C02_Alerts.sendKeysAlert" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686256290315</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Selenium 10. gün TestBase">
+      <created>1686602640535</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686602640535</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -190,6 +195,7 @@
     <MESSAGE value="Selenium 7. gün Maven" />
     <MESSAGE value="Selenium 8. gün Maven" />
     <MESSAGE value="Selenium 9. gün Drop Down Menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium 9. gün Drop Down Menu" />
+    <MESSAGE value="Selenium 10. gün TestBase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium 10. gün TestBase" />
   </component>
 </project>
