@@ -3,12 +3,15 @@ package techproed.Utilities;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.Before;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
 
 public abstract class TestBase {
     /*
@@ -27,7 +30,7 @@ public abstract class TestBase {
 
     @After
     public void tearDown() {
-        driver.quit();
+        //driver.quit();
     }
     public void bekle(float second){
         try {
@@ -66,6 +69,15 @@ public abstract class TestBase {
     public void selectValue(WebElement ddm,String value){
         Select select = new Select(ddm);
         select.selectByValue(value);
+    }
+    //xpath
+    public WebElement xpath(String xpath){
+        return driver.findElement(By.xpath(xpath));
+    }
+    //switchToWindow
+    public void switchToWindow(int index){
+        List<String> windows = new ArrayList<>(driver.getWindowHandles());
+        driver.switchTo().window(windows.get(index));
     }
 
 }

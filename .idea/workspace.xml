@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7737083-cfcc-42af-9e4f-7c4e291aec40" name="Changes" comment="Selenium 10. gün TestBase">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day11_Iframe_WindowHandle/C01_Iframe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day11_Iframe_WindowHandle/C02_Iframe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day11_Iframe_WindowHandle/C03_WindowsHandle.java" afterDir="false" />
+    <list default="true" id="f7737083-cfcc-42af-9e4f-7c4e291aec40" name="Changes" comment="Selenium 11. gün windowHandle">
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day12_WindowHandles/C01_WindowHandels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day12_WindowHandles/C02_BasicAuthentication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/techproed/Utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/Utilities/TestBase.java" afterDir="false" />
     </list>
@@ -48,54 +47,55 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C03_WindowsHandle">
-    <configuration name="C01_Iframe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C02_BasicAuthentication.test01">
+    <configuration name="C01_WindowHandels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day11_Iframe_WindowHandle.*" />
+          <option name="PATTERN" value="techproed.day12_WindowHandles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day11_Iframe_WindowHandle" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day11_Iframe_WindowHandle.C01_Iframe" />
+      <option name="PACKAGE_NAME" value="techproed.day12_WindowHandles" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day12_WindowHandles.C01_WindowHandels" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_Iframe.iframe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_WindowHandels.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day11_Iframe_WindowHandle.*" />
+          <option name="PATTERN" value="techproed.day12_WindowHandles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day11_Iframe_WindowHandle" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day11_Iframe_WindowHandle.C01_Iframe" />
-      <option name="METHOD_NAME" value="iframe" />
+      <option name="PACKAGE_NAME" value="techproed.day12_WindowHandles" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day12_WindowHandles.C01_WindowHandels" />
+      <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_Iframe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_WindowHandels.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day11_Iframe_WindowHandle.*" />
+          <option name="PATTERN" value="techproed.day12_WindowHandles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day11_Iframe_WindowHandle" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day11_Iframe_WindowHandle.C02_Iframe" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="techproed.day12_WindowHandles" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day12_WindowHandles.C01_WindowHandels" />
+      <option name="METHOD_NAME" value="test03" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_Alerts.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_Alerts.t03sendKeysAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
@@ -104,35 +104,36 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="techproed.day10_TestBase_Allert" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day10_TestBase_Allert.C03_Alerts" />
-      <option name="METHOD_NAME" value="test03" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day10_TestBase_Allert.C02_Alerts" />
+      <option name="METHOD_NAME" value="t03sendKeysAlert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_WindowsHandle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_BasicAuthentication.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day11_Iframe_WindowHandle.*" />
+          <option name="PATTERN" value="techproed.day12_WindowHandles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day11_Iframe_WindowHandle" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day11_Iframe_WindowHandle.C03_WindowsHandle" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="techproed.day12_WindowHandles" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day12_WindowHandles.C02_BasicAuthentication" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C03_WindowsHandle" />
-        <item itemvalue="JUnit.C02_Iframe" />
-        <item itemvalue="JUnit.C01_Iframe.iframe" />
-        <item itemvalue="JUnit.C01_Iframe" />
-        <item itemvalue="JUnit.C03_Alerts.test03" />
+        <item itemvalue="JUnit.C02_BasicAuthentication.test01" />
+        <item itemvalue="JUnit.C01_WindowHandels.test03" />
+        <item itemvalue="JUnit.C01_WindowHandels.test02" />
+        <item itemvalue="JUnit.C01_WindowHandels" />
+        <item itemvalue="JUnit.C02_Alerts.t03sendKeysAlert" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686602640535</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Selenium 11. gün windowHandle">
+      <created>1686697849635</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686697849635</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -196,6 +204,7 @@
     <MESSAGE value="Selenium 8. gün Maven" />
     <MESSAGE value="Selenium 9. gün Drop Down Menu" />
     <MESSAGE value="Selenium 10. gün TestBase" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium 10. gün TestBase" />
+    <MESSAGE value="Selenium 11. gün windowHandle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium 11. gün windowHandle" />
   </component>
 </project>
