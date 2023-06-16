@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7737083-cfcc-42af-9e4f-7c4e291aec40" name="Changes" comment="Selenium 11. gün windowHandle">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day12_WindowHandles/C01_WindowHandels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day12_WindowHandles/C02_BasicAuthentication.java" afterDir="false" />
+    <list default="true" id="f7737083-cfcc-42af-9e4f-7c4e291aec40" name="Changes" comment="Selenium 12. gün windowHandle">
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day13_Cookies_Actions/C01_Cookies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day13_Cookies_Actions/C02_Actions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day13_Cookies_Actions/C03_Actions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/Utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/Utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,34 +47,18 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C02_BasicAuthentication.test01">
-    <configuration name="C01_WindowHandels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C03_Actions.test01">
+    <configuration name="C01_Cookies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day12_WindowHandles.*" />
+          <option name="PATTERN" value="techproed.day13_Cookies_Actions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day12_WindowHandles" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day12_WindowHandles.C01_WindowHandels" />
+      <option name="PACKAGE_NAME" value="techproed.day13_Cookies_Actions" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day13_Cookies_Actions.C01_Cookies" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_WindowHandels.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B151MavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.day12_WindowHandles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.day12_WindowHandles" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day12_WindowHandles.C01_WindowHandels" />
-      <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,17 +79,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_Alerts.t03sendKeysAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_Actions.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day10_TestBase_Allert.*" />
+          <option name="PATTERN" value="techproed.day13_Cookies_Actions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day10_TestBase_Allert" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day10_TestBase_Allert.C02_Alerts" />
-      <option name="METHOD_NAME" value="t03sendKeysAlert" />
+      <option name="PACKAGE_NAME" value="techproed.day13_Cookies_Actions" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day13_Cookies_Actions.C02_Actions" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,13 +111,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C03_Actions.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B151MavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.day13_Cookies_Actions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.day13_Cookies_Actions" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day13_Cookies_Actions.C03_Actions" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C03_Actions.test01" />
+        <item itemvalue="JUnit.C02_Actions.test01" />
+        <item itemvalue="JUnit.C01_Cookies" />
         <item itemvalue="JUnit.C02_BasicAuthentication.test01" />
         <item itemvalue="JUnit.C01_WindowHandels.test03" />
-        <item itemvalue="JUnit.C01_WindowHandels.test02" />
-        <item itemvalue="JUnit.C01_WindowHandels" />
-        <item itemvalue="JUnit.C02_Alerts.t03sendKeysAlert" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686697849635</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Selenium 12. gün windowHandle">
+      <created>1686859936021</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686859936021</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -205,6 +212,7 @@
     <MESSAGE value="Selenium 9. gün Drop Down Menu" />
     <MESSAGE value="Selenium 10. gün TestBase" />
     <MESSAGE value="Selenium 11. gün windowHandle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium 11. gün windowHandle" />
+    <MESSAGE value="Selenium 12. gün windowHandle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium 12. gün windowHandle" />
   </component>
 </project>
