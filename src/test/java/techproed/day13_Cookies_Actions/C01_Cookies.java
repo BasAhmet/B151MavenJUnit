@@ -5,7 +5,6 @@ import org.junit.Test;
 import org.openqa.selenium.Cookie;
 import techproed.Utilities.TestBase;
 
-import java.util.Arrays;
 import java.util.Set;
 
 public class C01_Cookies extends TestBase {
@@ -58,9 +57,9 @@ public class C01_Cookies extends TestBase {
         // 7-ismi skin olan cookie’yi silin ve silindigini test edin
         int silinmedenOnce = cookieSet.size();
         System.out.println("Silinmeden Once Cookie Sayisi = "+silinmedenOnce);
-        bekle(2);
+        pause(2);
         driver.manage().deleteCookieNamed("skin");//-->ismi skin olan cookie'yi sildik
-        bekle(2);
+        pause(2);
         cookieSet = driver.manage().getCookies();//Silindikten sonra cookieSet'e yine atama yapiyoruz aksi taktirde fail aliriz
         int silindiktenSonra = cookieSet.size();
         System.out.println("Silindikten Sonra Cookie Sayisi = "+silindiktenSonra);

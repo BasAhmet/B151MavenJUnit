@@ -21,13 +21,13 @@ public class C02_Alerts extends TestBase {
 
         //1. butona tıklayın, uyarıdaki OK butonuna tıklayın
         driver.findElement(By.xpath("(//*[@class='btn btn-primary'])[1]")).click();
-        bekle(2);
+        pause(2);
         driver.switchTo().alert().accept();
-        bekle(2);
+        pause(2);
 
         //result mesajının  “You successfully clicked an alert” oldugunu test edin.
         Assert.assertTrue(driver.findElement(By.xpath("//*[@id='result']")).getText().equals("You successfully clicked an alert"));
-        bekle(1);
+        pause(1);
 
     }
 
@@ -39,13 +39,13 @@ public class C02_Alerts extends TestBase {
 
         //2. butona tıklayın, uyarıdaki Cancel butonuna tıklayın
         driver.findElement(By.xpath("(//*[@class='btn btn-primary'])[2]")).click();
-        bekle(2);
+        pause(2);
         driver.switchTo().alert().dismiss();
-        bekle(2);
+        pause(2);
 
         //result mesajının “successfuly” icermedigini test edin.
         Assert.assertFalse(driver.findElement(By.xpath("//*[@id='result']")).getText().contains("successfuly"));
-        bekle(1);
+        pause(1);
     }
 
     @Test
@@ -56,15 +56,15 @@ public class C02_Alerts extends TestBase {
 
         //3. butona tıklayın, uyarıdaki metin kutusuna isminizi yazin, OK butonuna tıklayın
         driver.findElement(By.xpath("(//*[@class='btn btn-primary'])[3]")).click();
-        bekle(2);
+        pause(2);
         driver.switchTo().alert().sendKeys("Ahmet");
-        bekle(2);
+        pause(2);
         driver.switchTo().alert().accept();
-        bekle(2);
+        pause(2);
 
         //result mesajında isminizin görüntülendiğini doğrulayın.
         Assert.assertTrue(driver.findElement(By.xpath("//*[@id='result']")).getText().contains("Ahmet"));
-        bekle(1);
+        pause(1);
 
     }
 }

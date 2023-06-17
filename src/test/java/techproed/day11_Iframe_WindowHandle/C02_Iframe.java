@@ -19,13 +19,13 @@ public class C02_Iframe extends TestBase {
         //Textbox içindeki yazıyı siliniz.
         driver.switchTo().frame(0);
         WebElement textBox = driver.findElement(By.xpath("//p"));
-        bekle(2);
+        pause(2);
         textBox.clear();
-        bekle(2);
+        pause(2);
 
         //Sildiğiniz yazı yerine "Bu textbox iFrame içinde yer almaktadır" yazınız.
         textBox.sendKeys("Bu textbox iFrame içinde yer almaktadır");
-        bekle(2);
+        pause(2);
 
         //Sayfadaki "Elemental Selenium" yazısının görünür olduğunu doğrulayınız.
         driver.switchTo().defaultContent();

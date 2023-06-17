@@ -32,7 +32,7 @@ public abstract class TestBase {
     public void tearDown() {
         //driver.quit();
     }
-    public void bekle(float second){
+    public void pause(float second){
         try {
             Thread.sleep((long) (second*1000));
         } catch (InterruptedException e) {

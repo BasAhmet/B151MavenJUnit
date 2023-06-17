@@ -5,8 +5,6 @@ import org.junit.Test;
 import org.openqa.selenium.WindowType;
 import techproed.Utilities.TestBase;
 
-import java.util.Set;
-
 public class C03_WindowsHandle extends TestBase {
     @Test
     public void windowHandle() {
@@ -26,18 +24,18 @@ public class C03_WindowsHandle extends TestBase {
         driver.switchTo().newWindow(WindowType.TAB);
         driver.get("https://www.linkedin.com");
         String linkdenWindowHandle = driver.getWindowHandle();
-        bekle(2);
+        pause(2);
 
         //techproeducation sayfasına geçiniz:
         driver.switchTo().window(techproWindowHandle);
-        bekle(2);
+        pause(2);
 
         //youtube sayfasına geçiniz:
         driver.switchTo().window(youtubeWindowHandle);
-        bekle(2);
+        pause(2);
 
         //linkedIn sayfasına geçiniz:
         driver.switchTo().window(linkdenWindowHandle);
-        bekle(2);
+        pause(2);
     }
 }

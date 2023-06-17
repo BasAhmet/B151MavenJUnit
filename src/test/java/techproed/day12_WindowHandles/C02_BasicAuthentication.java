@@ -10,7 +10,7 @@ public class C02_BasicAuthentication extends TestBase {
         // Aşağıdaki bilgileri kullanarak authentication yapınız:
         // Url: https://the-internet.herokuapp.com/basic_auth
         driver.get("https://the-internet.herokuapp.com/basic_auth");
-        bekle(3);
+        pause(3);
         // Username: admin
         // Password: admin
         driver.get("https://admin:admin@the-internet.herokuapp.com/basic_auth");

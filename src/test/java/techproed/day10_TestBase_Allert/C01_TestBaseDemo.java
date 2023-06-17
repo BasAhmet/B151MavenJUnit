@@ -9,10 +9,10 @@ public class C01_TestBaseDemo extends TestBase {
     public void test01() {
         //Techproeducation sayfasina gidelim
         driver.get("https://www.techproeducation.com");
-        bekle(2);
+        pause(2);
 
         //Basligin Bootcamp icerdigini test edelim
         Assert.assertTrue(driver.getTitle().contains("Bootcamp"));
-        bekle(2);
+        pause(2);
     }
 }
