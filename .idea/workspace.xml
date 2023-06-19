@@ -4,23 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7737083-cfcc-42af-9e4f-7c4e291aec40" name="Changes" comment="Selenium 13. gün Cookies Actions">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day14_Actions_Faker/C01_Actions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day14_Actions_Faker/C02_Actions_DragDrop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day14_Actions_Faker/C03_KeyDownKeyUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day14_Actions_Faker/C04_Faker.java" afterDir="false" />
+    <list default="true" id="f7737083-cfcc-42af-9e4f-7c4e291aec40" name="Changes" comment="Selenium 14. gün">
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day15_FilesExists/C01_FilesExists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day15_FilesExists/C02_FileDownloadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day15_FilesExists/C03_FileUploadTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/Utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/Utilities/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day10_TestBase_Allert/C01_TestBaseDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day10_TestBase_Allert/C01_TestBaseDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day10_TestBase_Allert/C02_Alerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day10_TestBase_Allert/C02_Alerts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day10_TestBase_Allert/C03_Alerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day10_TestBase_Allert/C03_Alerts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day11_Iframe_WindowHandle/C02_Iframe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day11_Iframe_WindowHandle/C02_Iframe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day11_Iframe_WindowHandle/C03_WindowsHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day11_Iframe_WindowHandle/C03_WindowsHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day12_WindowHandles/C01_WindowHandels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day12_WindowHandles/C01_WindowHandels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day12_WindowHandles/C02_BasicAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day12_WindowHandles/C02_BasicAuthentication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day13_Cookies_Actions/C01_Cookies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day13_Cookies_Actions/C01_Cookies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day13_Cookies_Actions/C02_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day13_Cookies_Actions/C02_Actions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,82 +47,82 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C04_Faker.faker">
-    <configuration name="C02_Actions_DragDrop.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C03_FileUploadTest.test01">
+    <configuration name="C01_FilesExists.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day14_Actions_Faker.*" />
+          <option name="PATTERN" value="techproed.day15_FilesExists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day14_Actions_Faker" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day14_Actions_Faker.C02_Actions_DragDrop" />
-      <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_KeyDownKeyUp.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B151MavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.day14_Actions_Faker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.day14_Actions_Faker" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day14_Actions_Faker.C03_KeyDownKeyUp" />
+      <option name="PACKAGE_NAME" value="techproed.day15_FilesExists" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day15_FilesExists.C01_FilesExists" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_KeyDownKeyUp.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_FilesExists.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day14_Actions_Faker.*" />
+          <option name="PATTERN" value="techproed.day15_FilesExists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day14_Actions_Faker" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day14_Actions_Faker.C03_KeyDownKeyUp" />
+      <option name="PACKAGE_NAME" value="techproed.day15_FilesExists" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day15_FilesExists.C01_FilesExists" />
       <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_KeyDownKeyUp.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_FilesExists.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day14_Actions_Faker.*" />
+          <option name="PATTERN" value="techproed.day15_FilesExists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day14_Actions_Faker" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day14_Actions_Faker.C03_KeyDownKeyUp" />
+      <option name="PACKAGE_NAME" value="techproed.day15_FilesExists" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day15_FilesExists.C01_FilesExists" />
       <option name="METHOD_NAME" value="test03" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_Faker.faker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_FileDownloadTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day14_Actions_Faker.*" />
+          <option name="PATTERN" value="techproed.day15_FilesExists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day14_Actions_Faker" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day14_Actions_Faker.C04_Faker" />
-      <option name="METHOD_NAME" value="faker" />
+      <option name="PACKAGE_NAME" value="techproed.day15_FilesExists" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day15_FilesExists.C02_FileDownloadTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_FileUploadTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B151MavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.day15_FilesExists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.day15_FilesExists" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day15_FilesExists.C03_FileUploadTest" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C04_Faker.faker" />
-        <item itemvalue="JUnit.C03_KeyDownKeyUp.test03" />
-        <item itemvalue="JUnit.C03_KeyDownKeyUp.test02" />
-        <item itemvalue="JUnit.C03_KeyDownKeyUp.test01" />
-        <item itemvalue="JUnit.C02_Actions_DragDrop.test02" />
+        <item itemvalue="JUnit.C03_FileUploadTest.test01" />
+        <item itemvalue="JUnit.C02_FileDownloadTest.test01" />
+        <item itemvalue="JUnit.C01_FilesExists.test03" />
+        <item itemvalue="JUnit.C01_FilesExists.test02" />
+        <item itemvalue="JUnit.C01_FilesExists.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686947978106</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Selenium 14. gün">
+      <created>1687034279761</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1687034279761</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -234,6 +229,7 @@
     <MESSAGE value="Selenium 11. gün windowHandle" />
     <MESSAGE value="Selenium 12. gün windowHandle" />
     <MESSAGE value="Selenium 13. gün Cookies Actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium 13. gün Cookies Actions" />
+    <MESSAGE value="Selenium 14. gün" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium 14. gün" />
   </component>
 </project>
