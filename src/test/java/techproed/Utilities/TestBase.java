@@ -7,7 +7,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -32,6 +35,7 @@ public abstract class TestBase {
     public void tearDown() {
         //driver.quit();
     }
+    //Hard Wait
     public void pause(float second){
         try {
             Thread.sleep((long) (second*1000));
@@ -39,6 +43,35 @@ public abstract class TestBase {
             throw new RuntimeException(e);
         }
     }
+
+    //Selenium Wait/Explicit Wait
+    //visibiltyOf(element)
+    public void visibleWait(WebElement element,int second){
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(second));
+        wait.until(ExpectedConditions.visibilityOf(element));
+    }
+
+    //visibilityOfElementLocated(locator)
+    public void visibleWait(By locator,int second){
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(second));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+    }
+
+    //AlertWait
+    public void alertWait(int second){
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(second));
+        wait.until(ExpectedConditions.alertIsPresent());
+    }
+
+    //FluentWait
+    public void visibleFluentWait(WebElement element,int second,int millis){
+        new FluentWait<>(driver).
+                withTimeout(Duration.ofSeconds(second)).
+                pollingEvery(Duration.ofMillis(millis)).
+                until(ExpectedConditions.visibilityOf(element));
+    }
+
+
     //AcceptAlert
     public void acceptAlert(){
         driver.switchTo().alert().accept();
@@ -79,5 +112,4 @@ public abstract class TestBase {
         List<String> windows = new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(windows.get(index));
     }
-
 }
