@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7737083-cfcc-42af-9e4f-7c4e291aec40" name="Changes" comment="Selenium 15. gün Download Upload">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day16_SeleniumWait/C01_ExplicitWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day16_SeleniumWait/C02_ExplicitWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day16_SeleniumWait/C03_FluentWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day16_SeleniumWait/C04_ExplicitWait_ClassWork.java" afterDir="false" />
+    <list default="true" id="f7737083-cfcc-42af-9e4f-7c4e291aec40" name="Changes" comment="Selenium 16. gün Wait">
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day17_Exceptions/C01_NoSuchElementExepction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day17_Exceptions/C02_TimeOutException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day17_Exceptions/C03_NullPointerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day17_Exceptions/C04_StaleElementReferenceException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/Utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/Utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,80 +48,86 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C04_ExplicitWait_ClassWork.test01">
-    <configuration name="C01_ExplicitWait" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="techproed.day17_Exceptions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.C04_StaleElementReferenceException.test01">
+    <configuration name="C03_NullPointerException.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day16_SeleniumWait.*" />
+          <option name="PATTERN" value="techproed.day17_Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day16_SeleniumWait" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day16_SeleniumWait.C01_ExplicitWait" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_ExplicitWait.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B151MavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.day16_SeleniumWait.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.day16_SeleniumWait" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day16_SeleniumWait.C02_ExplicitWait" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_ExplicitWait.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B151MavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.day16_SeleniumWait.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.day16_SeleniumWait" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day16_SeleniumWait.C02_ExplicitWait" />
+      <option name="PACKAGE_NAME" value="techproed.day17_Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day17_Exceptions.C03_NullPointerException" />
       <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_FluentWait.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_NullPointerException.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day16_SeleniumWait.*" />
+          <option name="PATTERN" value="techproed.day17_Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day16_SeleniumWait" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day16_SeleniumWait.C03_FluentWait" />
-      <option name="METHOD_NAME" value="test02" />
+      <option name="PACKAGE_NAME" value="techproed.day17_Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day17_Exceptions.C03_NullPointerException" />
+      <option name="METHOD_NAME" value="test03" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_ExplicitWait_ClassWork.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_NullPointerException.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day16_SeleniumWait.*" />
+          <option name="PATTERN" value="techproed.day17_Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day16_SeleniumWait" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day16_SeleniumWait.C04_ExplicitWait_ClassWork" />
+      <option name="PACKAGE_NAME" value="techproed.day17_Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day17_Exceptions.C03_NullPointerException" />
+      <option name="METHOD_NAME" value="test04" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_NullPointerException.test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B151MavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.day17_Exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.day17_Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day17_Exceptions.C03_NullPointerException" />
+      <option name="METHOD_NAME" value="test05" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_StaleElementReferenceException.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B151MavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.day17_Exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.day17_Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day17_Exceptions.C04_StaleElementReferenceException" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -131,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C04_ExplicitWait_ClassWork.test01" />
-        <item itemvalue="JUnit.C03_FluentWait.test02" />
-        <item itemvalue="JUnit.C02_ExplicitWait.test02" />
-        <item itemvalue="JUnit.C02_ExplicitWait.test01" />
-        <item itemvalue="JUnit.C01_ExplicitWait" />
+        <item itemvalue="JUnit.C04_StaleElementReferenceException.test01" />
+        <item itemvalue="JUnit.C03_NullPointerException.test05" />
+        <item itemvalue="JUnit.C03_NullPointerException.test04" />
+        <item itemvalue="JUnit.C03_NullPointerException.test03" />
+        <item itemvalue="JUnit.C03_NullPointerException.test02" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687207385435</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Selenium 16. gün Wait">
+      <created>1687293836866</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1687293836866</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -239,6 +251,7 @@
     <MESSAGE value="Selenium 13. gün Cookies Actions" />
     <MESSAGE value="Selenium 14. gün" />
     <MESSAGE value="Selenium 15. gün Download Upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium 15. gün Download Upload" />
+    <MESSAGE value="Selenium 16. gün Wait" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium 16. gün Wait" />
   </component>
 </project>
