@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7737083-cfcc-42af-9e4f-7c4e291aec40" name="Changes" comment="Selenium 16. gün Wait">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day17_Exceptions/C01_NoSuchElementExepction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day17_Exceptions/C02_TimeOutException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day17_Exceptions/C03_NullPointerException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day17_Exceptions/C04_StaleElementReferenceException.java" afterDir="false" />
+    <list default="true" id="f7737083-cfcc-42af-9e4f-7c4e291aec40" name="Changes" comment="Selenium 17. gün exception">
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day18_ScreenShot/C01_TakeFullScreenShot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day18_ScreenShot/C02_TakeFullScreenShot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day19_ExtentReport_WebTable/C01_ExtentReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day19_ExtentReport_WebTable/C02_ExtentReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/Utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/Utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,82 +54,85 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="techproed.day17_Exceptions" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\TechProEducation\B151MavenJUnit\src\test\java\techproed\day18_ScreenShot" />
+      <recent name="D:\TechProEducation\B151MavenJUnit\target" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.C04_StaleElementReferenceException.test01">
-    <configuration name="C03_NullPointerException.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C02_ExtentReport">
+    <configuration name="C01_ExtentReport.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day17_Exceptions.*" />
+          <option name="PATTERN" value="techproed.day19_ExtentReport_WebTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day17_Exceptions" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day17_Exceptions.C03_NullPointerException" />
-      <option name="METHOD_NAME" value="test02" />
+      <option name="PACKAGE_NAME" value="techproed.day19_ExtentReport_WebTable" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day19_ExtentReport_WebTable.C01_ExtentReport" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_NullPointerException.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_TakeFullScreenShot.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day17_Exceptions.*" />
+          <option name="PATTERN" value="techproed.day18_ScreenShot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day17_Exceptions" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day17_Exceptions.C03_NullPointerException" />
-      <option name="METHOD_NAME" value="test03" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_NullPointerException.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B151MavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.day17_Exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.day17_Exceptions" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day17_Exceptions.C03_NullPointerException" />
+      <option name="PACKAGE_NAME" value="techproed.day18_ScreenShot" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day18_ScreenShot.C01_TakeFullScreenShot" />
       <option name="METHOD_NAME" value="test04" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_NullPointerException.test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_ExtentReport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day17_Exceptions.*" />
+          <option name="PATTERN" value="techproed.day19_ExtentReport_WebTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day17_Exceptions" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day17_Exceptions.C03_NullPointerException" />
-      <option name="METHOD_NAME" value="test05" />
+      <option name="PACKAGE_NAME" value="techproed.day19_ExtentReport_WebTable" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day19_ExtentReport_WebTable.C02_ExtentReport" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_ExtentReport.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B151MavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.day19_ExtentReport_WebTable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.day19_ExtentReport_WebTable" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day19_ExtentReport_WebTable.C02_ExtentReport" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_StaleElementReferenceException.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_TakeFullScreenShot.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day17_Exceptions.*" />
+          <option name="PATTERN" value="techproed.day18_ScreenShot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day17_Exceptions" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day17_Exceptions.C04_StaleElementReferenceException" />
+      <option name="PACKAGE_NAME" value="techproed.day18_ScreenShot" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day18_ScreenShot.C02_TakeFullScreenShot" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -136,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C04_StaleElementReferenceException.test01" />
-        <item itemvalue="JUnit.C03_NullPointerException.test05" />
-        <item itemvalue="JUnit.C03_NullPointerException.test04" />
-        <item itemvalue="JUnit.C03_NullPointerException.test03" />
-        <item itemvalue="JUnit.C03_NullPointerException.test02" />
+        <item itemvalue="JUnit.C02_ExtentReport" />
+        <item itemvalue="JUnit.C02_ExtentReport.test01" />
+        <item itemvalue="JUnit.C01_ExtentReport.test01" />
+        <item itemvalue="JUnit.C02_TakeFullScreenShot.test01" />
+        <item itemvalue="JUnit.C01_TakeFullScreenShot.test04" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687293836866</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Selenium 17. gün exception">
+      <created>1687465422924</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1687465422924</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -252,6 +264,7 @@
     <MESSAGE value="Selenium 14. gün" />
     <MESSAGE value="Selenium 15. gün Download Upload" />
     <MESSAGE value="Selenium 16. gün Wait" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium 16. gün Wait" />
+    <MESSAGE value="Selenium 17. gün exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium 17. gün exception" />
   </component>
 </project>

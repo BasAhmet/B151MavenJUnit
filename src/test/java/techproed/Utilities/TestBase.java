@@ -1,19 +1,28 @@
 package techproed.Utilities;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.commons.io.FileUtils;
 import org.junit.After;
 import org.junit.Before;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.awt.*;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public abstract class TestBase {
@@ -33,6 +42,7 @@ public abstract class TestBase {
 
     @After
     public void tearDown() {
+        extentReports.flush();
         //driver.quit();
     }
     //Hard Wait
@@ -111,5 +121,67 @@ public abstract class TestBase {
     public void switchToWindow(int index){
         List<String> windows = new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(windows.get(index));
+    }
+    //Full screen shot
+    public void fullScreenShot(){
+        String date = new SimpleDateFormat("_dd.MM.yyyy_hh;mm;ss]").format(new Date());
+        TakesScreenshot tss = (TakesScreenshot) driver;
+        String path = "src/test/java/techproed/fullScreenShot/screenShot";
+        try {
+            FileUtils.copyFile(tss.getScreenshotAs(OutputType.FILE),new File( path + date + ".png"));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
+    //WebElement Screen shot
+    public void webElementScreenShot(WebElement element){
+        String date = new SimpleDateFormat("[dd.MM.yyyy][hh;mm;ss]").format(new Date());
+        String path = "src/test/java/techproed/day18_ScreenShot/fullScreenShot/screenShot" + date + ".png";
+        try {
+            FileUtils.copyFile(element.getScreenshotAs(OutputType.FILE),new File(path));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+    //UploadFile Robot Class
+    public void uploadFilePath(String filePath) {
+        try {
+            pause(3);
+            StringSelection stringSelection = new StringSelection(filePath);
+            Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection, null);
+            Robot robot = new Robot();
+            robot.keyPress(KeyEvent.VK_CONTROL);
+            pause(3);
+            robot.keyPress(KeyEvent.VK_V);
+            pause(3);
+            robot.keyRelease(KeyEvent.VK_CONTROL);
+            pause(3);
+            robot.keyRelease(KeyEvent.VK_V);
+            pause(3);
+            robot.keyPress(KeyEvent.VK_ENTER);
+            pause(3);
+            robot.keyRelease(KeyEvent.VK_ENTER);
+            pause(3);
+        } catch (AWTException e) {
+            throw new RuntimeException(e);
+        }
+    }
+    //Extent Report Methodu
+    protected ExtentReports extentReports;//--> Raporlamayı başlatmak için kullanılan class.
+    protected ExtentHtmlReporter extentHtmlReporter;//--> raporu html formatında düzenler.
+    protected ExtentTest extentTest;//--> Test adımlarına eklemek istediğimiz bilgileri bu class ile oluştururuz.
+    public void extentReport(String browser, String reportName){
+        extentReports = new ExtentReports();
+        String date = new SimpleDateFormat("_dd.MM.yyyy_hh;mm;ss_").format(new Date());
+        String filePath = "src/test/java/techproed/day19_ExtentReport_WebTable/extentTest" + date + ".html";
+        extentHtmlReporter = new ExtentHtmlReporter(filePath);
+        extentReports.attachReporter(extentHtmlReporter);//--> Html formatında raporlamayı başlatacak
+
+        //Raporda gözükmesini istediğimiz bilgiler için
+        extentReports.setSystemInfo("Browser",browser);
+        extentReports.setSystemInfo("Tester","Ahmet");
+        extentHtmlReporter.config().setDocumentTitle("Extent Report");
+        extentHtmlReporter.config().setReportName(reportName);
     }
 }
