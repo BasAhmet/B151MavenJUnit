@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7737083-cfcc-42af-9e4f-7c4e291aec40" name="Changes" comment="Selenium 17. gün exception">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day18_ScreenShot/C01_TakeFullScreenShot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day18_ScreenShot/C02_TakeFullScreenShot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day19_ExtentReport_WebTable/C01_ExtentReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day19_ExtentReport_WebTable/C02_ExtentReport.java" afterDir="false" />
+    <list default="true" id="f7737083-cfcc-42af-9e4f-7c4e291aec40" name="Changes" comment="Selenium 19. gün extent">
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day19_ExtentReport_WebTable/C03_WebTables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/techproed/Utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/Utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +55,7 @@
       <recent name="D:\TechProEducation\B151MavenJUnit\target" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C02_ExtentReport">
+  <component name="RunManager" selected="JUnit.C03_WebTables.test01">
     <configuration name="C01_ExtentReport.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
@@ -71,22 +67,6 @@
       <option name="PACKAGE_NAME" value="techproed.day19_ExtentReport_WebTable" />
       <option name="MAIN_CLASS_NAME" value="techproed.day19_ExtentReport_WebTable.C01_ExtentReport" />
       <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_TakeFullScreenShot.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B151MavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.day18_ScreenShot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.day18_ScreenShot" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day18_ScreenShot.C01_TakeFullScreenShot" />
-      <option name="METHOD_NAME" value="test04" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,16 +103,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_TakeFullScreenShot.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_WebTables" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day18_ScreenShot.*" />
+          <option name="PATTERN" value="techproed.day19_ExtentReport_WebTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day18_ScreenShot" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day18_ScreenShot.C02_TakeFullScreenShot" />
+      <option name="PACKAGE_NAME" value="techproed.day19_ExtentReport_WebTable" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day19_ExtentReport_WebTable.C03_WebTables" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_WebTables.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B151MavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.day19_ExtentReport_WebTable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.day19_ExtentReport_WebTable" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day19_ExtentReport_WebTable.C03_WebTables" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -141,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C03_WebTables.test01" />
         <item itemvalue="JUnit.C02_ExtentReport" />
+        <item itemvalue="JUnit.C03_WebTables" />
         <item itemvalue="JUnit.C02_ExtentReport.test01" />
         <item itemvalue="JUnit.C01_ExtentReport.test01" />
-        <item itemvalue="JUnit.C02_TakeFullScreenShot.test01" />
-        <item itemvalue="JUnit.C01_TakeFullScreenShot.test04" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687465422924</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Selenium 19. gün extent">
+      <created>1687637586493</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1687637586493</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -265,6 +267,7 @@
     <MESSAGE value="Selenium 15. gün Download Upload" />
     <MESSAGE value="Selenium 16. gün Wait" />
     <MESSAGE value="Selenium 17. gün exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium 17. gün exception" />
+    <MESSAGE value="Selenium 19. gün extent" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium 19. gün extent" />
   </component>
 </project>

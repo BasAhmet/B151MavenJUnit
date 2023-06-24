@@ -42,6 +42,7 @@ public abstract class TestBase {
 
     @After
     public void tearDown() {
+        extentReports = new ExtentReports();
         extentReports.flush();
         //driver.quit();
     }
