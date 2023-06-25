@@ -34,20 +34,28 @@ public class C03_WebTables extends TestBase {
         System.out.println("************************************");
 
         //    Task 2 : 3. Satır verilerini yazdırın
-        System.out.println(xpath("//table[1]//tr[3]").getText());
+        System.out.println(xpath("(//tbody)[1]//tr[3]").getText());
         System.out.println("************************************");
 
         //    Task 3 : Son satırın verilerini yazdırın
+        int tableDataCount = driver.findElements(By.xpath("(//tbody)[1]//tr")).size();
+        System.out.println(xpath("(//tbody)[1]//tr[" + tableDataCount + "]").getText());
+        System.out.println("************************************");
 
         //    Task 4 : 5. Sütun verilerini yazdırın
-
-        //    Task 5 : Iki parametreli bir Java metodu oluşturalım: printData
-
-        //    Parameter 1 = satır numarası
-
-        //    Parameter 2 = sütun numarası
-
-        //    printData(2,3);  => 2. satır, 3. sütundaki veriyi yazdırsın.
-
+        for (int i = 0; i < tableDataCount; i++) {
+            System.out.println(xpath("(//tbody)[1]//tr[" + (i + 1) + "]/td[5]").getText());
+        }
+        System.out.println("************************************");
+        printData(1,3);
+        printData(3,4);
     }
+        //    Task 5 : Iki parametreli bir Java metodu oluşturalım: printData
+        //    Parameter 1 = satır numarası
+        //    Parameter 2 = sütun numarası
+        //    printData(2,3);  => 2. satır, 3. sütundaki veriyi yazdırsın.
+        public void printData(int satir, int sutun){
+            System.out.println(xpath("(//tbody)[1]//tr[" + satir + "]/td[" + sutun + "]").getText());
+        }
+
 }
