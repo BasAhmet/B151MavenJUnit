@@ -43,7 +43,6 @@ public abstract class TestBase {
     @After
     public void tearDown() {
         extentReports = new ExtentReports();
-        extentReports.flush();
         //driver.quit();
     }
     //Hard Wait
@@ -118,12 +117,16 @@ public abstract class TestBase {
     public WebElement xpath(String xpath){
         return driver.findElement(By.xpath(xpath));
     }
+    //xpaths
+    public List<WebElement> xpaths(String xpath){
+        return driver.findElements(By.xpath(xpath));
+    }
     //switchToWindow
     public void switchToWindow(int index){
         List<String> windows = new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(windows.get(index));
     }
-    //Full screen shot
+    //FullScreenShot
     public void fullScreenShot(){
         String date = new SimpleDateFormat("_dd.MM.yyyy_hh;mm;ss]").format(new Date());
         TakesScreenshot tss = (TakesScreenshot) driver;
@@ -175,7 +178,7 @@ public abstract class TestBase {
     public void extentReport(String browser, String reportName){
         extentReports = new ExtentReports();
         String date = new SimpleDateFormat("_dd.MM.yyyy_hh;mm;ss_").format(new Date());
-        String filePath = "src/test/java/techproed/day19_ExtentReport_WebTable/extentTest" + date + ".html";
+        String filePath = "src/test/java/techproed/extentReport_WebTable/extentTest" + date + ".html";
         extentHtmlReporter = new ExtentHtmlReporter(filePath);
         extentReports.attachReporter(extentHtmlReporter);//--> Html formatında raporlamayı başlatacak
 
