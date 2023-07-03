@@ -141,7 +141,7 @@ public abstract class TestBase {
     //WebElement Screen shot
     public void webElementScreenShot(WebElement element){
         String date = new SimpleDateFormat("[dd.MM.yyyy][hh;mm;ss]").format(new Date());
-        String path = "src/test/java/techproed/day18_ScreenShot/fullScreenShot/screenShot" + date + ".png";
+        String path = "src/test/java/techproed/webElementScreenShot/screenShot" + date + ".png";
         try {
             FileUtils.copyFile(element.getScreenshotAs(OutputType.FILE),new File(path));
         } catch (IOException e) {
@@ -187,5 +187,14 @@ public abstract class TestBase {
         extentReports.setSystemInfo("Tester","Ahmet");
         extentHtmlReporter.config().setDocumentTitle("Extent Report");
         extentHtmlReporter.config().setReportName(reportName);
+    }
+    //Click Method
+    public void click(WebElement element){
+        try {
+            element.click();
+        } catch (Exception e) {
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("arguments[0],click();",element);
+        }
     }
 }
