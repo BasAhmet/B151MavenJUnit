@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7737083-cfcc-42af-9e4f-7c4e291aec40" name="Changes" comment="Selenium 20. gün WebTables excel">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day21_Excel_JSExecutor/C01_ReadExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day21_Excel_JSExecutor/C02_ExcelWrite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day21_Excel_JSExecutor/C03_JsExacutor_Click.java" afterDir="false" />
+    <list default="true" id="f7737083-cfcc-42af-9e4f-7c4e291aec40" name="Changes" comment="Selenium 21. gün JsExacutor">
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day22_JSExecutor/C01_JSExecutorScroll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day22_JSExecutor/C02_SetAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day22_JSExecutor/C03_GetAttribute.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/techproed/Utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/Utilities/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/resources/Capitals.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/resources/Capitals.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,38 @@
       <recent name="D:\TechProEducation\B151MavenJUnit\target" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C01_ReadExcel.readExcel">
+  <component name="RunManager" selected="JUnit.C03_GetAttribute.test01">
+    <configuration name="C01_JSExecutorScroll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B151MavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.day22_JSExecutor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.day22_JSExecutor" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day22_JSExecutor.C01_JSExecutorScroll" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_JSExecutorScroll.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B151MavenJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.day22_JSExecutor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.day22_JSExecutor" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day22_JSExecutor.C01_JSExecutorScroll" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C01_ReadExcel.readExcel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
@@ -77,63 +107,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_ExcelRead.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_SetAttribute.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day20_WebTable_Excel.*" />
+          <option name="PATTERN" value="techproed.day22_JSExecutor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day20_WebTable_Excel" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day20_WebTable_Excel.C02_ExcelRead" />
-      <option name="METHOD_NAME" value="test03" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_ExcelWrite.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B151MavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.day21_Excel_JSExecutor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.day21_Excel_JSExecutor" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day21_Excel_JSExecutor.C02_ExcelWrite" />
+      <option name="PACKAGE_NAME" value="techproed.day22_JSExecutor" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day22_JSExecutor.C02_SetAttribute" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_JsExacutor_Click" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_GetAttribute.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day21_Excel_JSExecutor.*" />
+          <option name="PATTERN" value="techproed.day22_JSExecutor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day21_Excel_JSExecutor" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day21_Excel_JSExecutor.C03_JsExacutor_Click" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_JsExacutor_Click.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B151MavenJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.day21_Excel_JSExecutor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.day21_Excel_JSExecutor" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day21_Excel_JSExecutor.C03_JsExacutor_Click" />
+      <option name="PACKAGE_NAME" value="techproed.day22_JSExecutor" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day22_JSExecutor.C03_GetAttribute" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -142,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C03_GetAttribute.test01" />
+        <item itemvalue="JUnit.C02_SetAttribute.test01" />
+        <item itemvalue="JUnit.C01_JSExecutorScroll.test01" />
+        <item itemvalue="JUnit.C01_JSExecutorScroll" />
         <item itemvalue="JUnit.C01_ReadExcel.readExcel" />
-        <item itemvalue="JUnit.C03_JsExacutor_Click.test01" />
-        <item itemvalue="JUnit.C03_JsExacutor_Click" />
-        <item itemvalue="JUnit.C02_ExcelWrite.test01" />
-        <item itemvalue="JUnit.C02_ExcelRead.test03" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687843704653</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Selenium 21. gün JsExacutor">
+      <created>1688416563893</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1688416563893</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -297,6 +303,7 @@
     <MESSAGE value="Selenium 19. gün extent" />
     <MESSAGE value="Selenium 19. gün WebTables" />
     <MESSAGE value="Selenium 20. gün WebTables excel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium 20. gün WebTables excel" />
+    <MESSAGE value="Selenium 21. gün JsExacutor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium 21. gün JsExacutor" />
   </component>
 </project>
