@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7737083-cfcc-42af-9e4f-7c4e291aec40" name="Changes" comment="Selenium 21. gün JsExacutor">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day22_JSExecutor/C01_JSExecutorScroll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day22_JSExecutor/C02_SetAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day22_JSExecutor/C03_GetAttribute.java" afterDir="false" />
+    <list default="true" id="f7737083-cfcc-42af-9e4f-7c4e291aec40" name="Changes" comment="Selenium 22. gün JsExacutor">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day23_Log4j/C01_Log4j.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day23_Log4j/C02_Log4j.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/techproed/Utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/Utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,14 +42,15 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/TechProEducation/SeleniumHomeWork&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/TechProEducation/SeleniumHomeWork"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="techproed.day17_Exceptions" />
@@ -59,7 +61,7 @@
       <recent name="D:\TechProEducation\B151MavenJUnit\target" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C03_GetAttribute.test01">
+  <component name="RunManager" selected="JUnit.C01_Log4j.lo4j">
     <configuration name="C01_JSExecutorScroll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
@@ -91,17 +93,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_ReadExcel.readExcel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_Log4j.lo4j" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B151MavenJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day21_Excel_JSExecutor.*" />
+          <option name="PATTERN" value="techproed.day23_Log4j.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day21_Excel_JSExecutor" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day21_Excel_JSExecutor.C01_ReadExcel" />
-      <option name="METHOD_NAME" value="readExcel" />
+      <option name="PACKAGE_NAME" value="techproed.day23_Log4j" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day23_Log4j.C01_Log4j" />
+      <option name="METHOD_NAME" value="lo4j" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C01_Log4j.lo4j" />
         <item itemvalue="JUnit.C03_GetAttribute.test01" />
         <item itemvalue="JUnit.C02_SetAttribute.test01" />
         <item itemvalue="JUnit.C01_JSExecutorScroll.test01" />
         <item itemvalue="JUnit.C01_JSExecutorScroll" />
-        <item itemvalue="JUnit.C01_ReadExcel.readExcel" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688416563893</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Selenium 22. gün JsExacutor">
+      <created>1688676168521</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1688676168521</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -304,6 +313,7 @@
     <MESSAGE value="Selenium 19. gün WebTables" />
     <MESSAGE value="Selenium 20. gün WebTables excel" />
     <MESSAGE value="Selenium 21. gün JsExacutor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium 21. gün JsExacutor" />
+    <MESSAGE value="Selenium 22. gün JsExacutor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium 22. gün JsExacutor" />
   </component>
 </project>

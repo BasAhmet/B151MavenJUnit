@@ -128,7 +128,7 @@ public abstract class TestBase {
     }
     //FullScreenShot
     public void fullScreenShot(){
-        String date = new SimpleDateFormat("_dd.MM.yyyy_hh;mm;ss]").format(new Date());
+        String date = new SimpleDateFormat("_yyMMddhhmmss").format(new Date());
         TakesScreenshot tss = (TakesScreenshot) driver;
         String path = "src/test/java/techproed/fullScreenShot/screenShot";
         try {
@@ -140,7 +140,7 @@ public abstract class TestBase {
     }
     //WebElement Screen shot
     public void webElementScreenShot(WebElement element){
-        String date = new SimpleDateFormat("[dd.MM.yyyy][hh;mm;ss]").format(new Date());
+        String date = new SimpleDateFormat("_yyMMddhhmmss").format(new Date());
         String path = "src/test/java/techproed/webElementScreenShot/screenShot" + date + ".png";
         try {
             FileUtils.copyFile(element.getScreenshotAs(OutputType.FILE),new File(path));
@@ -177,7 +177,7 @@ public abstract class TestBase {
     protected ExtentTest extentTest;//--> Test adımlarına eklemek istediğimiz bilgileri bu class ile oluştururuz.
     public void extentReport(String browser, String reportName){
         extentReports = new ExtentReports();
-        String date = new SimpleDateFormat("_dd.MM.yyyy_hh;mm;ss_").format(new Date());
+        String date = new SimpleDateFormat("_yyMMddhhmmss").format(new Date());
         String filePath = "src/test/java/techproed/extentReport_WebTable/extentTest" + date + ".html";
         extentHtmlReporter = new ExtentHtmlReporter(filePath);
         extentReports.attachReporter(extentHtmlReporter);//--> Html formatında raporlamayı başlatacak
